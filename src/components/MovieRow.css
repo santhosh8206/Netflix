@@ -1,0 +1,16 @@
+/* src/components/MovieRow.css */
+.movie-row-scroll {
+  gap: 12px;
+}
+
+/* hide default scrollbars in many browsers */
+.movie-row-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.movie-row-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.12);
+  border-radius: 999px;
+}
+
+/* optional: hide completely */
+/* .movie-row-scroll::-webkit-scrollbar { display: none; } */

@@ -1,0 +1,27 @@
+.hero-carousel .carousel-item {
+  transition: opacity 1s ease-in-out;
+}
+
+.hero-slide {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-slide h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-slide p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.hero-slide button.btn-light:hover {
+  background-color: #e6e6e6;
+}
+
+.hero-slide button.btn-secondary:hover {
+  background-color: rgba(109, 109, 110, 0.5);
+}

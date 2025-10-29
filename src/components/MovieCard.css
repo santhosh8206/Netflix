@@ -1,0 +1,18 @@
+.movie-card {
+  width: 180px;
+  cursor: pointer;
+  transition: transform .18s ease, box-shadow .18s ease;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+.movie-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+.movie-card img {
+  height: 270px;
+  object-fit: cover;
+}
+.movie-card-meta {
+  padding: 8px 2px;
+}
