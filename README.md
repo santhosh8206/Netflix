@@ -10,9 +10,7 @@ Currently, two official plugins are available:
 ##Deployed My Project in Vercel
 LINK(https://netflix-alpha-sandy-62.vercel.app/)
 
-##Login
-User_Name :user@example.com
-Password  :123456
+
 
 ## React Compiler
 
